@@ -30,6 +30,7 @@ export default function Enjoy() {
                         <span>ТЕРРИТОРИЯ ОТЕЛЯ</span>
                         <Link href={"/"}>ПОДРОБНЕЕ</Link>
                     </div>
+                    <div></div>
                 </div>
                 <img src="cocktail.png" alt="" />
             </div>

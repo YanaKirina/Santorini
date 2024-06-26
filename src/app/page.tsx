@@ -24,6 +24,5 @@ export default function Home() {
         <img src="video.jpg" className={styles.video} />
       </div>
     </div>
-
   );
 }

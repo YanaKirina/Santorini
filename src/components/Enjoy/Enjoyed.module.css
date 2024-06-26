@@ -30,6 +30,9 @@
     border-bottom: 2px solid #4567AA;
     align-items:center;
 }
+.left div:last-child{
+    border-bottom: 0px solid #4567AA;
+}
 
 .left span{
     padding-right: 45px;
@@ -64,22 +67,51 @@
     .section {
         padding: 45px;
     }
+    .left {
+        font-size: 25px;
+    }
     .left span{
-        padding-right: 30px;
+        padding-right: 25px;
     }
     .left div{
         padding-bottom:20px;
         padding-top: 38px;
         margin-right: 20px;
     }
-
 }
 
 
 @media (max-width: 768px){
     /* 30 */
+    .section {
+        padding: 30px;
+    }
+    .section h2 {
+        font-size: 40px;
+    }
+    .left {
+        font-size: 20px;
+    }
+    .left span{
+        padding-right: 10px;
+    }
+
 }
 
 @media (max-width: 425px){
     /* 15 */
+    .section {
+        padding: 15px;
+    }
+    .section div:last-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .section img{
+        width: 100%;
+        order: -1;
+    }
+    .left{
+        width: 100%;
+    }
 }
