@@ -1,0 +1,159 @@
+.nav {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #fff;
+}
+
+   
+.line{
+    width: 54px;
+    width: 54px;
+    height: 4px;
+    background-color: #4666A9;
+    margin: 10px 40px 10px 0;
+
+}
+
+.logo{
+    margin-top: 38px;
+    display: flex;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 50%;
+}
+
+.button {
+    height: 100%;
+    width: 283px;
+    background-color: #4666A9;
+    color: white;
+    padding: 0;
+    border: 0;
+    > .span{
+        padding-right: 15px;
+    }
+    
+}
+
+@media (max-width: 1440px){
+    .nav {
+        margin: 0 75px;
+        height: 70px;
+        font-size: 16px;
+    }
+    
+    .logo{
+        height: 100px;
+        width: 100px;
+        border-radius: 90px;
+    }
+    .button{
+        width: 255px;
+    }
+}
+
+@media (max-width: 1024px){
+    .nav {
+        margin: 0 45px;
+        height: 55px;
+        font-size: 14px;
+    }
+    
+    .logo{
+        height: 70px;
+        width: 70px;
+        border-radius: 90px;
+    }
+    .button{
+        width: 206px;
+    }
+    .line{
+        width: 45px;
+        width: 45px;
+        height: 2px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .nav {
+        margin: 0 30px;
+        height: 50px;
+        font-size: 12px;
+    }
+    
+    .logo{
+        height: 65px;
+        width: 65px;
+        border-radius: 90px;
+    }
+    .button{
+        width: 150px;
+        > .span{
+        padding-right: 5px;
+    }
+    }
+    .line{
+        width: 25px;
+        width: 25px;
+        height: 1,5px;
+        margin-right: 5px;
+    }
+    .menu img{
+    height: 23px;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .nav {
+        margin: 0 15px;
+        height: 40px;
+    }
+    
+    .logo{
+        height: 45px;
+        width: 50px;
+        border-radius: 60px;
+    }
+    .button{
+        width: 54px;
+    }
+    .line{
+        width: 40px;
+        width: 40px;
+        height: 2px;
+    }
+
+    .menu img{
+        display: none;
+    }
+
+    .span{
+        display: none;
+    }
+
+
+}

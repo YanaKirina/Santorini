@@ -1,0 +1,146 @@
+.rest{
+    background-color: #F5F5F5;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.rest h2{
+    font-size: 50px;
+}
+
+.rest button{
+    padding: 15px;
+    margin: 50px;
+    font-size: 28px;
+    color: #4567AA;
+    border: 2px solid #4567AA;
+    background-color: rgba(28,28,28,0);
+}
+
+.rest button:first-child{
+    color: #FFFFFF;
+    background-color: #4567AA;;
+}
+
+
+.rest img{
+    padding: 15px;
+}
+
+.conteiner{
+    width: 100%;
+}
+
+.conteiner img{
+    height: 500px;
+}
+
+.top img:first-child{
+    width: 60%;
+}
+
+.top img:last-child{
+    width: 35%;
+}
+
+.bottom img:first-child{
+    width: 40%;
+    /* height: 460; */
+}
+
+.bottom img:last-child{
+    width: 55%;
+    /* height: 460; */
+}
+
+
+@media (max-width: 1440px){
+    .rest{
+        padding: 73px;
+    }
+    .top img:first-child{
+        width: 60%;
+        height: 3%;
+        padding-right: 1%;
+    }
+    
+    .top img:last-child{
+        width: 35%;
+        height: 3%;
+        padding-left: 1%;
+    }
+    
+    .bottom img:first-child{
+        width: 40%;
+        height: 3%;
+        padding-right: 1%;
+    }
+    
+    .bottom img:last-child{
+        width: 55%;
+        height: 3%;
+        padding-left: 1%;
+    }
+    .rest img{
+        padding: 7px 0 ;
+    }
+    .rest h2{
+        font-size: 40px;
+    }
+    .rest button{
+        font-size: 24px;
+        margin: 25px;
+    }
+}
+
+@media (max-width: 1024px){
+    .rest{
+        padding: 45px;
+    }
+    .rest button{
+        font-size: 18px;
+        margin: 20px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .rest{
+        padding: 30px;
+    }
+    .rest h2{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .rest button{
+        font-size: 16px;
+        margin: 10px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 425px){
+    .rest{
+        padding: 15px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .rest img{
+       width: 100% !important;
+    }
+    .rest h2{
+        font-size: 25px;
+
+    }
+    .rest button{
+        font-size: 14px;
+        margin: 10px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,73 @@
+
+.review{
+    padding: 0 120px;
+
+}
+
+.review .video{
+    width: 100%;
+
+}
+
+.review div{
+    display: flex;
+    justify-content:center;
+    color: #333333;
+    text-align: center;
+    font-size: 50px;
+    padding:78px 340px;
+}
+
+@media (max-width: 1440px){
+   
+    .review{
+        padding: 0 73px;
+    }
+    .review div{
+        padding: 55px 215px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px){
+    .review{
+        padding: 0 45px;
+    }
+    .review div{
+        padding: 35px 35px;
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .review{
+        padding: 0 30px;
+    }
+    .review div{
+        padding: 35px 35px;
+        font-size: 24px;
+    }
+    .review div img:first-child{
+        height: 30px;
+    }
+    .review div img:last-child{
+        height: 40px;
+    }
+}
+
+@media (max-width: 425px){
+    .review{
+        padding: 10px 15px;
+    }
+    .review div{
+        padding: 35px 0;
+        font-size: 20px;
+    }
+    .review div img:first-child{
+        height: 20px;
+    }
+    .review div img:last-child{
+        height: 34px;
+    }
+}
